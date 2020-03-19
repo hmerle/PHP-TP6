@@ -1,5 +1,5 @@
 <?php
-echo "<h1>TP5 : Transmission de données</h1>";
+echo "<h1>TP6 : POO</h1>";
 ?>
     <DOCTYPE html>
         <html>
