@@ -54,7 +54,5 @@ $equipe3 = new equipe("Lille", 8);
 $equipe3->display();
 $equipe4 = new equipe("Toulouse", 15);
 $equipe4->display();
-
 equipe::nombre_equipes();
-
 ?>
