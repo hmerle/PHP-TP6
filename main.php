@@ -2,7 +2,7 @@
 echo "<h1>TP6 : POO</h1>";
 ?>
     <DOCTYPE html>
-        <html>
+        <html lang="fr">
         <body>
         <a href='main.php'>Cliquez ici pour actualiser</a>
         </body>
