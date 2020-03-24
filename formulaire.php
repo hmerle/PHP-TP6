@@ -1,6 +1,9 @@
 <?php
 
 class formulaire{
+    public function __construct($methode, $fichierCible){
+        echo "<form action='".$fichierCible."' method='".$methode."'>";
+    }
     public function ajouterZoneDeTexte($text){
         echo $text."<input type='text' name=$text/><br>";
     }
@@ -9,8 +12,5 @@ class formulaire{
     }
     function getForm(){
         echo "</form>";
-    }
-    public function __construct($methode, $fichierCible){
-        echo "<form action='".$fichierCible."' method='".$methode."'>";
     }
 }
