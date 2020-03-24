@@ -4,7 +4,7 @@
 <?php
 
 class formulaire{
-    function ajouterZoneDeTexte($text){
+    public function ajouterZoneDeTexte($text){
         echo $text."<input type='text' name=$text/>";
     }
     function ajouterBouton(){
