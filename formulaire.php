@@ -1,6 +1,3 @@
-<DOCTYPE html>
-    <html lang="fr">
-    <body>
 <?php
 
 class formulaire{
@@ -17,8 +14,3 @@ class formulaire{
         echo "<form action='".$fichierCible."' method='".$methode."'>";
     }
 }
-
-?>
-    </body>
-    </html>
-</DOCTYPE>
