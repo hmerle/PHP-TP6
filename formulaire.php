@@ -14,7 +14,7 @@ class formulaire{
         echo "</form>";
     }
     public function __construct($methode, $fichierCible){
-        echo "<form method= $methode action='$fichierCible'>";
+        echo "<form action='".$fichierCible."' method='".$methode."'>";
     }
 }
 
