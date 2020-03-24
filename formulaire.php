@@ -3,6 +3,6 @@
 
 class formulaire{
     public function __construct(){
-        echo "<br>";
+        echo "<form method='post' action='testformulaire.php'>";
     }
 }
