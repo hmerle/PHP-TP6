@@ -11,7 +11,5 @@ echo "<br>";
 $form->getForm();
 echo "<br>";
 
-if(!empty($_POST['nom']) || !empty(['code'])){
-    echo "Votre nom : ".$_POST['Votre nom']."<br>";
-    echo "Votre code : ".$_POST['Votre code']."<br>";
-}
+echo "Votre nom : ".$_POST['Votre nom']."<br>";
+echo "Votre code : ".$_POST['Votre code']."<br>";
