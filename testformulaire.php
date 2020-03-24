@@ -1,5 +1,5 @@
 <?php
-include('formulaire.php');
+include 'formulaire.php';
 
 $form = new formulaire("post", "testformulaire.php");
 $form->ajouterZoneDeTexte("Nom");
@@ -11,3 +11,16 @@ if(isset($_POST['Nom']) && isset($_POST['Code'])) {
     echo "Votre nom : " . $_POST['Nom'] . "<br>";
     echo "Votre code : " . $_POST['Code'] . "<br>";
 }
+
+//include 'formulaire.php';
+//
+//$form1 = new Formulaire("testformulaire.php", "post");
+//$form1->addTextZone("name");
+//$form1->addTextZone("age");
+//$form1->addButton("Envoi");
+//$form1->getForm();
+//
+//if(isset($_POST["name"]) && isset($_POST["age"])){
+//    echo $_POST["name"]."<br>";
+//    echo $_POST["age"];
+//}
