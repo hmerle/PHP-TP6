@@ -2,9 +2,9 @@
 include('formulaire.php');
 
 $form = new formulaire("post", "testformulaire.php");
-$form->ajouterZoneDeTexte("Votre nom", "nom");
+$form->ajouterZoneDeTexte("Votre nom");
 echo "<br>";
-$form->ajouterZoneDeTexte("Votre code", 'code');
+$form->ajouterZoneDeTexte("Votre code");
 echo "<br>";
 $form->ajouterBouton();
 echo "<br>";

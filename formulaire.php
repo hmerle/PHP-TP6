@@ -7,8 +7,8 @@ class formulaire{
     public function __construct($methode, $fichierCible){
         echo "<form method= $methode action='$fichierCible'>";
     }
-    function ajouterZoneDeTexte($text, $name){
-        echo $text."<input type='text' name=$name/>";
+    function ajouterZoneDeTexte($text){
+        echo $text."<input type='text' name=$text/>";
     }
     function ajouterBouton(){
         echo "<input type='submit' value='Envoi'/>";
