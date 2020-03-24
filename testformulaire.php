@@ -7,9 +7,9 @@ $form->ajouterZoneDeTexte("Code");
 $form->ajouterBouton();
 $form->getForm();
 
-if(isset($_POST['Nom']) && isset($_POST['Code'])) {
-    echo "Votre nom : " . $_POST['Nom'] . "<br>";
-    echo "Votre code : " . $_POST['Code'] . "<br>";
+if(isset($_POST["Nom"]) && isset($_POST["Code"])) {
+    echo $_POST['Nom']."<br>";
+    echo $_POST['Code'];
 }
 
 //include 'formulaire.php';
