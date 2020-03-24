@@ -5,16 +5,16 @@
 
 class formulaire{
     public function ajouterZoneDeTexte($text){
-        echo $text."<input type='text' name=$text/>";
+        echo $text."<input type='text' name=$text/><br>";
     }
     function ajouterBouton(){
-        echo "<input type='submit' value='Envoi'/>";
+        echo "<input type='submit' value='Envoi'/><br>";
     }
     function getForm(){
         echo "</form>";
     }
     public function __construct($methode, $fichierCible){
-        echo "<form action='".$fichierCible."' method='".$methode."'>";
+        echo "<form action='".$fichierCible."' method='".$methode."'><br>";
     }
 }
 
